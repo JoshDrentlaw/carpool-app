@@ -27,6 +27,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Link to="/page-2/">Page 2</Link>
+      {`    `}
+      <Link to="/login/">Login</Link>
+      {`    `}
+      <Link to="/logout/">Logout</Link>
     </div>
   </header>
 )
